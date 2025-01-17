@@ -9,7 +9,7 @@ import streamlit as st
 
 # Load Dataset
 
-data = pd.read_csv('kc_house_prediction')
+data = pd.read_csv('kc_house_data.csv')
 
 # Data Preprocessing
 data.ffill(inplace=True)  # Handle missing values
