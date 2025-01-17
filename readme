@@ -1,0 +1,15 @@
+# Load the data
+"""load the data set save file at location from where is accessible """
+# Select features and target
+"""decides what to predict or from what to predict"""
+# Split the data into training and testing sets
+""""""
+# Initialize the model
+"""initialise differant algorithms"""
+# Train the model
+# Make predictions
+# Evaluate the model
+
+
+# EDA
+# Feature Scaling
