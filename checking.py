@@ -8,8 +8,8 @@ from sklearn.metrics import mean_squared_error, r2_score
 import streamlit as st
 
 # Load Dataset
-url = 'https://drive.google.com/file/d/1eg7a_pplr-41Cnc2h9QvrXJkkQSS4Hl9/view?usp=sharing'
-data = pd.read_csv(url)
+
+data = pd.read_csv('kc_house_prediction')
 
 # Data Preprocessing
 data.ffill(inplace=True)  # Handle missing values
